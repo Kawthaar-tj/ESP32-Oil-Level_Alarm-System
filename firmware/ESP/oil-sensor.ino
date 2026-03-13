@@ -3,11 +3,11 @@
 #include <PubSubClient.h>
 
 // WiFi
-const char* ssid = "Sedimat";
-const char* password = "WelcomeSedimat38!!";
+const char* ssid = "xxx";
+const char* password = "xxxx";
 
 // MQTT
-const char* mqtt_server = "192.168.3.51";
+const char* mqtt_server = "192.168.x.x";
 const int mqtt_port = 1883;
 const char* mqtt_topic = "camion/donnees";
 const char* mqtt_client_id = "esp32_huile_1";
